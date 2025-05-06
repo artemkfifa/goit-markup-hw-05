@@ -1,4 +1,4 @@
-    body {
+body {
         font-family: "Roboto", sans-serif;
         color: #434455;
         background-color: #FFFFFF;
@@ -164,7 +164,7 @@
         align-items: center;
     }
 
-        .section_solution {
+    .section_solution {
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
             background-repeat: no-repeat;
             background-position: center center;
@@ -180,7 +180,7 @@
     
         
     
-        .section_solution_title {
+    .section_solution_title {
             font-size: 56px;
             line-height: 1.07;
             font-weight: 700;
@@ -582,7 +582,6 @@
             align-items: center;
             font-family: "Roboto", sans-serif;
             font-size: 16px;
-
             font-weight: 500;
             line-height: 1.5;
             letter-spacing: 0.04em;
@@ -795,9 +794,9 @@
         border-color: #4D5AE5;
        }
 
-.form-input:has(input:focus) .popup_icon {
-    fill: #4D5AE5;
-}
+        .form-input:has(input:focus) .popup_icon {
+             fill: #4D5AE5;
+        }
 
        .popup_icon {
         position: absolute;
@@ -814,6 +813,16 @@
         height: 120px;
         resize: none;
         outline: none;
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
+        color: rgba(46, 47, 66, 0.4);
+        border: 1px solid rgba(46, 47, 66, 0.4);
+        background-color: transparent;
+        padding: 8px 16px;
+        outline: transparent;
+        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        border-color: #4D5AE5;
         
        }
 
