@@ -543,7 +543,7 @@
 
         .form_subscribe {
             display: flex;
-            gap 24px;
+            gap: 24px;
         }
 
         .form_subscribe_label {
