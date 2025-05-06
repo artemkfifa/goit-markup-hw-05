@@ -661,6 +661,8 @@
            .button_close:hover .button_close_svg,
            .button_close:focus .button_close_svg {
                fill: #ffffff;
+                background-color: #404bbf;
+                border: none;
            }
 
        .button_close_svg {
