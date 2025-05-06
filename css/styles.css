@@ -722,9 +722,18 @@ body {
 
        .popup_input_wrapper_checkbox {
         margin-bottom: 24px;
-
-      
        }
+
+       .form-input_privacy:checked + .form-label_privacy .checkmark {
+            background-color: #404bbf;
+            border: none;
+            fill: #F4F4FD;
+        }
+
+        .form-input_privacy:checked + .form-label_privacy .checkmark_svg {
+            fill: #F4F4FD;
+            }
+
        .form-label_privacy {
         font-size: 12px;
         line-height: 1.17;
@@ -732,14 +741,7 @@ body {
         color: #8e8f99;
        }
 
-       popup_input_wrapper_checkbox input:checked ~ .checkmark {
-            background-color:red;
-       }
-
-
-       .popup_input_wrapper_checkbox label {
-        margin: 0;
-       }
+       
 
        .popup_input_wrapper:has(input:hover) .subscribe_icon {
         fill: #404BBF;
