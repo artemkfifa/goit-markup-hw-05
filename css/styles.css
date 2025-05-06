@@ -790,6 +790,10 @@ body {
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
        }
 
+           .form-input:focus+.popup_icon {
+               fill: #4D5AE5;
+           }
+
        .popup_textarea {
         border-radius: 4px;
         width: 100%;
