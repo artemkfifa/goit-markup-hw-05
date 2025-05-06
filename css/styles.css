@@ -714,12 +714,7 @@ body {
         position: relative;
        }
 
-       .popup_input_wrapper svg {
-        fill: #2E2F42;
-        position: absolute;
-        left: 9px;
-        top: 20%;
-       }
+    
 
        .popup_input_wrapper_textarea {
         margin-bottom: 16px;
